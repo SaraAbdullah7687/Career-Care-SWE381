@@ -353,8 +353,8 @@ textarea.input100 {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
-
-a.login100-form-btn {
+/* NewButton For phase 2 by Deema*/
+a.login100-form-btn , #NewButton {
   font-family: Poppins-Medium;
   font-size: 16px;
   color: #fff;
