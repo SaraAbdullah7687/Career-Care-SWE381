@@ -1298,3 +1298,60 @@ input:checked + .slider:before {
     width: 60px;
 
 }
+
+
+///////////////////////////////////////
+
+#search-result  .card {
+    height: 70%;
+    max-height: 430px;
+    min-height: 430px;
+}
+
+#search-result  .card-body {
+    position: absolute;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    height: 200px;
+    margin-top: 120px;
+    margin-bottom: 10px;
+}
+ #search-result  .card-title  {
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    margin-top: 10px;    
+}
+
+#search-result  .card-text {
+    margin-top: 10px; 
+    font-size: small;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#search-result  .card-image11 {
+    height:60px;
+    width:100%;
+    position: absolute;
+    background-color: rgba(240, 248, 255, 0.315);
+    display: block;
+    height: 110px;
+
+}
+
+#search-result .card-columns {
+    column-count: 3;
+    column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1;  
+}
+
+#search-result .card-columns, #search-result .card {
+    margin-bottom: .75rem;
+    box-shadow: 0px 20px 50px 0 rgba(110, 130, 208, 0.1);
+}
