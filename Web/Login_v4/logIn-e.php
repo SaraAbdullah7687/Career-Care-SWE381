@@ -64,20 +64,16 @@
 						<span class="focus-input100" data-symbol="&#xf190;"></span>
 					</div>
 					
-					<div class="text-right p-t-8 p-b-31">
-						<a href="forgetPass.html">
-							Forgot password?
-						</a>
-					</div>
+
 					
 					<div class="container-login100-form-btn">
-						<div class="wrap-login100-form-btn">
-							<div class="login100-form-bgbtn"></div>
-							<a class="login100-form-btn">
-							<button  type="submit">LOGIN</button>
-							</a>
-
-						</div>
+					<div class="wrap-login100-form-btn">
+                            <div class="login100-form-bgbtn"></div>
+                            <div id="NewButton"><button id="NewButton" type="submit">
+                                    LOGIN
+                                </button>
+                            </div>
+                        </div>
 					</div>
 <!------------------------------------------------>
 					<div class="flex-col-c p-t-155">
