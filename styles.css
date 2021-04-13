@@ -240,14 +240,38 @@ body{
 
 }
 
+
+/*first btns*/
+.apply
+{
+    margin-right: 100px;
+}
+
+
+/*second btns*/
+
 .delete
 {
     margin-right: 100px;
 }
 
+.viewP
+{
+ margin-right: 110px;
+}
+
+
+
+/*third btns*/
+
 .viewApp{
     margin-right: 220px;  
 }
+
+.readmore{
+    margin-right: 265px;  
+}
+
 
 /*button edit*/
 .edit a:hover{
@@ -284,29 +308,21 @@ body{
 /*navfation links*/
 
 /* in job detalis page*/
-.box , .box2{
+.box {
+    text-align: center;
     position: relative;
-    left: 370px;
-    right: 50px;
-    padding: 10px;
+    margin-left: 25%;
+    margin-right: 50%;
    font-size: 19px;
    border-radius: 60px;
    border: 1px solid cadetblue;
-   padding: 10px;
+   padding: 30px 30px 30px 30px;
+   width: 50%;
+   height: 50%;
+   overflow: hidden;
 }
 
 
-.box2{
-    width: 800px;
-    height: 1050px;
-    margin-bottom: 50px;
-
-}
-
-.box{
-    width: 800px;
-    height: 250px;
-}
 
 .heading{
     margin-top: 50px;
@@ -314,10 +330,6 @@ body{
    
 }
 
-.box2 li , .box p{
-    margin: 10px;
-    padding: 10px;
-}
 
 /* I can change it if u want*/
 h1 , h2 , h3 , h4{
