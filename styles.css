@@ -675,8 +675,8 @@ h6.search_title{
     height: 32px;
 }
 
-#NatSearch::placeholder, #SkillSearch::placeholder, #citySearch::placeholder, #MajorSearch::placeholder, #CnameSearch1::placeholder, #PosSearch::placeholder, #CnameSearch1::placeholder, #CscopeSearch::placeholder {
-    font-size: 16px;
+#NatSearch::placeholder, #SkillSearch::placeholder, #citySearch::placeholder, #CnameSearch2::placeholder, #MajorSearch::placeholder, #CnameSearch1::placeholder, #PosSearch::placeholder, #CnameSearch1::placeholder, #CscopeSearch::placeholder{
+font-size: 16px;
 
 }
 
@@ -689,9 +689,15 @@ h6.search_title{
     right: 5px;
     border: none;
     background-color: transparent;
-    font-size: small;
     margin-right: 10px;
+
 }
+
+#rSPage {
+    height:100%; 
+    width: 99%;
+}
+
 
 
 
