@@ -1,7 +1,7 @@
 <?php 
     session_start();
 
-    if(!isset($_SESSION['user-e']))
+    if(!isset($_SESSION['e_email']))
 	   header("Location: Web/Login_v4/login-e.php?error=Please Login again!");//****** 
 
     else
@@ -21,7 +21,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <title>Employer</title>
     <link rel="icon" href="images/cclogo2 (1).png" type="image/png" >
-
+    <script src="back-forward.js"></script>
 </head>
 <body>
     <section id="header">
@@ -35,21 +35,30 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="Search (EMP).html">SEARCH</a>
+                        <a class="nav-link" href="Search (EMP).php">SEARCH</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="Ejobs.html">JOBS</a> <!--====AFNAN-->
+                        <a class="nav-link" href="Ejobs.php">JOBS</a> <!--====AFNAN-->
                       </li>
                    
 
                     <li class="nav-item">
-                      <a class="nav-link" href="ProfileE.html">PROFILE</a> <!--======DEEMA-->
+                      <a class="nav-link" href="ProfileE.php">PROFILE</a> <!--======DEEMA-->
                     </li>
                    
                       <li class="nav-item">
                         <a class="nav-link" href="signout.php">SIGN OUT</a>
                       </li>
-                
+                      <li>
+              <div id="forward">
+                <img src="images/left-arrow.png">
+              </div>
+            </li>
+            <li>
+              <div id="back">
+                <img src="images/right-arrow.png">
+              </div>
+            </li>
                   </ul>
                 </div>
               </nav>
@@ -110,10 +119,7 @@
       </div>
       
  
-      <div id="addAdvice" >
-              
-        <button class="btn btn-success addAdviceBtn "><a href="Web/Login_v4/advice.html"><i class="fas fa-plus fa-lg"></i></a></button> 
-      </div>
+    
       
 
     </div>
