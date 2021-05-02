@@ -1,0 +1,103 @@
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    @font-face{
+        font-family: "Alliance";
+        src: url("Alliance.ttf") format("truetype");
+    }
+    .menu-bar{
+        background-image: linear-gradient(to right, #ffffff) ;
+    }
+    .nav-link{
+        font-size: 17.5px;
+        color: #4c516d !important;
+        margin: 2px;
+    }
+
+    #header {
+        font-stretch: expanded;
+
+    }
+
+    .navbar-brand{
+        font-family: 'Teko', sans-serif;/*********************/
+        font-weight: 700;
+        font-size: 35px !important;
+        color: #0066CC !important;/*********/
+        margin-right: 5px !important;
+    }
+    .care{
+        font-family: 'Teko', sans-serif;;/*********************/
+        font-weight: 700;
+        font-size: 35px;
+        color: #5F9EA0 !important;/*********/
+        margin-right: 5px !important;
+    }
+    
+    .navbar-nav{
+        text-align: center;
+    }
+    .menu-bar .navbar-toggler{
+        border: none;
+        outline: none;
+        padding-right: 0;
+        color: white !important;
+    }
+    .banner{
+        height: 95vh;
+        background-image: url(images/back33.png);
+        
+        background-size: 100%;
+        background-position: center;
+        color: white;
+    }
+
+    hr{
+        background-color: #ccc;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #f1f1f1
+       
+    }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: #f1f1f1
+      }
+      #forward{
+        margin:5%;
+        margin-left: -50%;
+        padding:50%;
+        cursor: pointer;
+        }
+        #back{
+          margin:5%;
+          padding:50%;
+          cursor: pointer;
+          }
+    
