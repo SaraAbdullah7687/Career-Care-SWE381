@@ -280,12 +280,50 @@ body{
 
 }
 
-
-/*first btns*/
-.applyAfnan
-{
-    margin-right: 100px;
+.acc{
+    
+    padding: 0 30px;
+     float: right;
+     border-radius:0;
+     border: 1px solid cadetblue;
+     position: absolute ;/**/
+     right: 10px; /**/
+     bottom: 5px; /**/
+     background-color: white;
+     color: #4c516d ;
+ 
 }
+
+.rej{
+ 
+   padding: 0 30px;
+    float: right;
+    border-radius:0;
+    margin-right: 120px;
+    border: 1px solid cadetblue;
+    position: absolute ;/**/
+    right: 10px; /**/
+    bottom: 5px; /**/
+    background-color: white;
+    color: #4c516d ;
+}
+
+
+.viewApplicants{
+    margin-right: 235px;  
+    padding: 0 30px;
+    float: right;
+    border-radius:0;
+    border: 1px solid cadetblue;
+    position: absolute ;/**/
+    right: 10px; /**/
+    bottom: 5px; /**/
+    height: 28px;
+    width: 80px;
+    background-color: white;
+    color: #4c516d ;
+}
+
 
 
 /*second btns*/
@@ -1310,9 +1348,7 @@ input:checked + .slider:before {
 
 }
 
-
 /*===============================================================================================*/
-
 
 #search-result  .card {
     height: 70%;
