@@ -1,14 +1,4 @@
-<?php
 
-session_start();
-
-if(isset($_SESSION['e_email'])){ 
-    header("Location: E-Home.php"); }// page name
-elseif (isset($_SESSION['j_email'])){
-    header("Location: J-Home.php"); 
-}
-else {
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -136,13 +126,13 @@ else {
   
     <!-- footer -->
     <footer class="text-center">
-        <a class="navbar-brand" href="V-Home.php">Career<span class="care">Care</span></a>
+        <a class="navbar-brand" href="#">Career<span class="care">Care</span></a>
        
         <hr>
         <p>coded by <strong>Group#2</strong></p>
     </footer>
 </body>
 </html>
-<?php
+
 }
 ?>
